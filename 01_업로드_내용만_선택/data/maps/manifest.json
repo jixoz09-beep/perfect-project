@@ -1,0 +1,672 @@
+{
+  "1769": {
+    "file": "1769.geojson.gz",
+    "features": 128,
+    "sha256": "091c7e97b00a8e29d08bd2c04eedeca1faf75b0dfe13db5baeb0d0fef11e2f8a"
+  },
+  "1771": {
+    "file": "1771.geojson.gz",
+    "features": 128,
+    "sha256": "1c081810f7cf99e2a0a5bc665a882ca60d706a6f82c80ae4ef8d04f0718fd8db"
+  },
+  "1800": {
+    "file": "1800.geojson.gz",
+    "features": 123,
+    "sha256": "bc64f324bba8b857b81d52b6846a9ff349c46ad88c49d8a7b138165019b08017"
+  },
+  "1886": {
+    "file": "1886.geojson.gz",
+    "features": 100,
+    "sha256": "23a17bac29278f37bf31520c7d87741dc9f55b1c8079b78c53c9017c6f663624"
+  },
+  "1887": {
+    "file": "1887.geojson.gz",
+    "features": 100,
+    "sha256": "49bf33319d87a3bea5cb5953c2cffb7d5f389ed21a3c920ba924c8b2caeec79b"
+  },
+  "1894": {
+    "file": "1894.geojson.gz",
+    "features": 98,
+    "sha256": "190e2178ce035ed42ad832e3e40534581b7fdfdd10eb74ad0fcf26e4dd19ba7c"
+  },
+  "1895": {
+    "file": "1895.geojson.gz",
+    "features": 89,
+    "sha256": "f1cacf79769b437fc981bb31ffbc78fcb3e2ea8738b36f9e11c2caf0ab33358c"
+  },
+  "1896": {
+    "file": "1896.geojson.gz",
+    "features": 89,
+    "sha256": "a72d5536095fd9d75995fb63ef856aa8aa729a59630e87102adb79eb02571edd"
+  },
+  "1897": {
+    "file": "1897.geojson.gz",
+    "features": 89,
+    "sha256": "145e9503cd059c8c17891dfc8296812bd0fca154c5404f9dc4c1e1d9aa459eb3"
+  },
+  "1898": {
+    "file": "1898.geojson.gz",
+    "features": 86,
+    "sha256": "e6c6a9942adbde080c7845858863397b3bcbcd723ead3cb3fbece339b02908de"
+  },
+  "1899": {
+    "file": "1899.geojson.gz",
+    "features": 86,
+    "sha256": "0025073358ad952b7c09ffcaf1895d6e29303641deb1cefd31da2aa2f07e10d5"
+  },
+  "1901": {
+    "file": "1901.geojson.gz",
+    "features": 83,
+    "sha256": "6e479cc72f4218d90b092b1ff84be992322517e876fa76cb788a2cbd8671ff4a"
+  },
+  "1902": {
+    "file": "1902.geojson.gz",
+    "features": 83,
+    "sha256": "54e27c10dba1c7fc007a70d16074a358b558a127f95d0c4f1f95ad2d26ee3724"
+  },
+  "1903": {
+    "file": "1903.geojson.gz",
+    "features": 83,
+    "sha256": "013b684efffecbb0b1628b9264c38d0587bc253491e44265b989983667e80967"
+  },
+  "1904": {
+    "file": "1904.geojson.gz",
+    "features": 83,
+    "sha256": "91def73314aaf8d2285777db9acd586b5bcd65c48701e9845df00c8adea60ee6"
+  },
+  "1905": {
+    "file": "1905.geojson.gz",
+    "features": 82,
+    "sha256": "b3b5a4ece7fbbd442720bb3519678ab58d5331c563f31121499a9b59adb35fce"
+  },
+  "1906": {
+    "file": "1906.geojson.gz",
+    "features": 82,
+    "sha256": "90433d4326ef0b9d8e6dbaaf380e1c9543175209b002c43a1b27018cdaef6d56"
+  },
+  "1907": {
+    "file": "1907.geojson.gz",
+    "features": 82,
+    "sha256": "23115b576a75e6c89428918dc460ed7397036490af726f8095bee0cb283c78aa"
+  },
+  "1908": {
+    "file": "1908.geojson.gz",
+    "features": 78,
+    "sha256": "94eb59bb8f6ec2f7565c205df489b8bd79da92118ad965239ff9b07ed02005aa"
+  },
+  "1909": {
+    "file": "1909.geojson.gz",
+    "features": 78,
+    "sha256": "1248a6b39675d703451f4090c3e5048ec9347cb405a6e63341b7c5a1e3d30f2b"
+  },
+  "1910": {
+    "file": "1910.geojson.gz",
+    "features": 78,
+    "sha256": "cd771756247cf1c93e1846308abffa26b272c01d49ffab41cd682447c45b2851"
+  },
+  "1911": {
+    "file": "1911.geojson.gz",
+    "features": 75,
+    "sha256": "2a65b4ec83f7f093130e4e3ae0afd2296d9b58f3ad8f25bbe0521025b6df2138"
+  },
+  "1912": {
+    "file": "1912.geojson.gz",
+    "features": 76,
+    "sha256": "19ccdf618c89fa4f4e8ae928998bfdb4a82e81b5ad7c1bf0486c46ba3d7e0424"
+  },
+  "1913": {
+    "file": "1913.geojson.gz",
+    "features": 77,
+    "sha256": "7fc0b56b562fc0fff1caed856bc669e4003004ad184904803a0d603c67c83804"
+  },
+  "1914": {
+    "file": "1914.geojson.gz",
+    "features": 75,
+    "sha256": "46f06792ead6a5c1d9cb0fda4854fb13923bb394aea0e078939f68780440dae1"
+  },
+  "1915": {
+    "file": "1915.geojson.gz",
+    "features": 74,
+    "sha256": "1554ff593f1a6cc4067f6e45e4a50f19225dc7df3f7dff169510134f375afc7c"
+  },
+  "1917": {
+    "file": "1917.geojson.gz",
+    "features": 70,
+    "sha256": "a574d17d21fbb5ef1f495774e19a53c82c5f2966b2cfcacceda90de65c494e14"
+  },
+  "1919": {
+    "file": "1919.geojson.gz",
+    "features": 87,
+    "sha256": "7dc21d997809e31db2f89b06b14d17fee311ee8d58ab046c6018b277f31c765f"
+  },
+  "1920": {
+    "file": "1920.geojson.gz",
+    "features": 83,
+    "sha256": "c4b942ba0f8866f0e4273025165f1c37e47be564ff1770c17b6fceaa88354e36"
+  },
+  "1921": {
+    "file": "1921.geojson.gz",
+    "features": 83,
+    "sha256": "3188037410844e2781bb10954b1d0b4a670027c423626a48035dd0cd94a8e597"
+  },
+  "1922": {
+    "file": "1922.geojson.gz",
+    "features": 86,
+    "sha256": "8b287ae30a4eff9d3d02d5b4291a6fac21501a7ca1beb6df57d9e7d88a28f070"
+  },
+  "1923": {
+    "file": "1923.geojson.gz",
+    "features": 86,
+    "sha256": "d34bbd82205d9fdcb38bb5f1115f3ca2da9fd8f777d6ecec44ffa1cfb1716d61"
+  },
+  "1924": {
+    "file": "1924.geojson.gz",
+    "features": 85,
+    "sha256": "75e5a1b7422ced2cc3c802bb59783f802fa8d0aa058207ddbaf7592509690306"
+  },
+  "1925": {
+    "file": "1925.geojson.gz",
+    "features": 85,
+    "sha256": "964129c0500f9cfe037654ad771652aded1c8ea45c1530c7fafad4346d5dbb73"
+  },
+  "1926": {
+    "file": "1926.geojson.gz",
+    "features": 83,
+    "sha256": "52d11c8b9632cf56ab3404428c488ce939b173157c384527ff6e73d1058b4ef4"
+  },
+  "1927": {
+    "file": "1927.geojson.gz",
+    "features": 83,
+    "sha256": "247a7d41dbc1412551a4da2cea624ea932b90eaf3003b85f265b570042fb9ab7"
+  },
+  "1928": {
+    "file": "1928.geojson.gz",
+    "features": 84,
+    "sha256": "fdaf67ee868e247229d519988dec8bcfa22aab0aee9f54f4015b892f553f93df"
+  },
+  "1929": {
+    "file": "1929.geojson.gz",
+    "features": 84,
+    "sha256": "05fc88376d6323a2551d28fe10b658e93c61d1c3cfaca4ed03f45352f0e30935"
+  },
+  "1930": {
+    "file": "1930.geojson.gz",
+    "features": 85,
+    "sha256": "9950f445945567c466a6dfd3a3decfbcf5a6ce49413a29cbb27fa034d6fc8c45"
+  },
+  "1931": {
+    "file": "1931.geojson.gz",
+    "features": 85,
+    "sha256": "a99b46d164500cbf1afffe8a85aec1353451f7e0a77fd1a91d9a2e3f1a637c1a"
+  },
+  "1932": {
+    "file": "1932.geojson.gz",
+    "features": 87,
+    "sha256": "a56e482afbd2c24ce06b4f90a7adfdc9af81cf41ff16d5c2814398c14933177e"
+  },
+  "1933": {
+    "file": "1933.geojson.gz",
+    "features": 87,
+    "sha256": "5d2e8eea3e28faba9f5998ba4b802d8b4f79879b081ddb40b6d7a102ad74dbbc"
+  },
+  "1934": {
+    "file": "1934.geojson.gz",
+    "features": 87,
+    "sha256": "5fb08c77b19f6a9fc268f02c77e49e783195c86f18a36436f371b587a9f20e50"
+  },
+  "1935": {
+    "file": "1935.geojson.gz",
+    "features": 87,
+    "sha256": "f39901216d177295b57e3a73ad98b69e3fd35d36462b6693c99b6fd45725c522"
+  },
+  "1936": {
+    "file": "1936.geojson.gz",
+    "features": 88,
+    "sha256": "d318ef1c1c4a61b2bd4863bab14757c141f39e13f3d52625b11695014e14cdb2"
+  },
+  "1937": {
+    "file": "1937.geojson.gz",
+    "features": 88,
+    "sha256": "5f19a1851c00d80030d8f75f7c3e9362b1168e693cabdc4af89c83a0409814d2"
+  },
+  "1938": {
+    "file": "1938.geojson.gz",
+    "features": 87,
+    "sha256": "cd157b16128f115b3a2c1f74f1c09d1073f92086b19126c313aae449a3354e03"
+  },
+  "1939": {
+    "file": "1939.geojson.gz",
+    "features": 84,
+    "sha256": "3c55ef12aeaecd10b829d6e9aefaf5b1205e2fde5973bfd86ec562dbd99bd8a1"
+  },
+  "1940": {
+    "file": "1940.geojson.gz",
+    "features": 75,
+    "sha256": "179140693bae149cfc6121906687bd77165517ce4311fd99461272bd9c71675a"
+  },
+  "1941": {
+    "file": "1941.geojson.gz",
+    "features": 72,
+    "sha256": "3c946e013b4e513c8d48f441085a605c8fd97bfad5fd8c691113884eaec4f62f"
+  },
+  "1942": {
+    "file": "1942.geojson.gz",
+    "features": 73,
+    "sha256": "93bbad11e67abafd307586e508600d237404c73831a09bbb81d98dd7149c87f4"
+  },
+  "1943": {
+    "file": "1943.geojson.gz",
+    "features": 71,
+    "sha256": "dacc1d860e10e352de2c9ad95c58a125a389975289925c04873c50d5b18524ed"
+  },
+  "1945": {
+    "file": "1945.geojson.gz",
+    "features": 74,
+    "sha256": "25ad3a62d841b2c87f94eefd43ee25551ac27bf83ca131983d35617bf86360b5"
+  },
+  "1946": {
+    "file": "1946.geojson.gz",
+    "features": 81,
+    "sha256": "4cdf5688f0132dabec96849fa4c2e2137caff713b5ec9f483c57b4116387dbd2"
+  },
+  "1947": {
+    "file": "1947.geojson.gz",
+    "features": 90,
+    "sha256": "c51d41ba1a1376025172e49d6c48e750e76485708670026828d474adb28ca1c3"
+  },
+  "1948": {
+    "file": "1948.geojson.gz",
+    "features": 94,
+    "sha256": "ff594965fdefba0be1155a924f4e062ec3a312e6f9e050a0903edd38ccc7b5d4"
+  },
+  "1949": {
+    "file": "1949.geojson.gz",
+    "features": 94,
+    "sha256": "44094f0fb11de9364952fa6641be94cfa0e86df7cd026e0bc27213776f15f73e"
+  },
+  "1950": {
+    "file": "1950.geojson.gz",
+    "features": 92,
+    "sha256": "cc5d46a948b4ec2a1d58ed62315028fe7395c98a2c1e2dd29d6c126229d633a8"
+  },
+  "1951": {
+    "file": "1951.geojson.gz",
+    "features": 92,
+    "sha256": "a7aa85ae15647007e941d884c9cd3302e2a26b37c5ebaf0d2f05b3237b48567f"
+  },
+  "1952": {
+    "file": "1952.geojson.gz",
+    "features": 92,
+    "sha256": "032dbba65137f7accdbd6a2c00df5f00e7735431f71b807bb495cf020ef1dc35"
+  },
+  "1953": {
+    "file": "1953.geojson.gz",
+    "features": 95,
+    "sha256": "f096249d65a87b52f5afcf1a7ffaebf8a30cce73ad0a6c7fd97fb6fcc898e146"
+  },
+  "1954": {
+    "file": "1954.geojson.gz",
+    "features": 95,
+    "sha256": "668971dbd2b6c6a3f638992d2741171e96b1cd9187c0b72d8206e532e62f8c5d"
+  },
+  "1955": {
+    "file": "1955.geojson.gz",
+    "features": 95,
+    "sha256": "720536eec5d64804c87d0b0068a11767922d346f5453e3b00cb37954e623a636"
+  },
+  "1956": {
+    "file": "1956.geojson.gz",
+    "features": 101,
+    "sha256": "962d2eb8f5fe5f31f682d01a2f56214bfeae11e881be84a9fb6c238937d25fa8"
+  },
+  "1957": {
+    "file": "1957.geojson.gz",
+    "features": 101,
+    "sha256": "7fa617a7c43e6bc10bcacfaa6c9849e6cbfc5cb6d94e4007345ec04a515b43f3"
+  },
+  "1958": {
+    "file": "1958.geojson.gz",
+    "features": 99,
+    "sha256": "e38502d5c3fb687e0fe46eeeb4d453d24259c76bc14cd62443094807c718d13a"
+  },
+  "1959": {
+    "file": "1959.geojson.gz",
+    "features": 99,
+    "sha256": "f909a73e1c6269213e85ad91f1e9cd4b5a99576634abace20ae6c049d5121208"
+  },
+  "1960": {
+    "file": "1960.geojson.gz",
+    "features": 105,
+    "sha256": "35eb9bd435906d9349e53564169f25fc65426d5f94c288a2289f273beb363222"
+  },
+  "1961": {
+    "file": "1961.geojson.gz",
+    "features": 120,
+    "sha256": "535efc72ada9c2151c72a8b380e903ba17417a0732ca991ad3ac31f3a62548a3"
+  },
+  "1962": {
+    "file": "1962.geojson.gz",
+    "features": 120,
+    "sha256": "bc7671fd4bf5a133ddd1b8caab886f7f6a5f7b346175d51872d488eba7a5e711"
+  },
+  "1963": {
+    "file": "1963.geojson.gz",
+    "features": 127,
+    "sha256": "f2cabab0d176084bee2c732a772fc0068b304e93dbe451f037852ce836a509fe"
+  },
+  "1964": {
+    "file": "1964.geojson.gz",
+    "features": 127,
+    "sha256": "8935406428839706bc33cb1f8e1f2f61a951ae6dde17593f35422c0848c6ffbb"
+  },
+  "1965": {
+    "file": "1965.geojson.gz",
+    "features": 127,
+    "sha256": "3323255a8b8bcc1df6dca2d9e7eb9ebb5582a38716a2a1e511ebbe216d75a4e0"
+  },
+  "1966": {
+    "file": "1966.geojson.gz",
+    "features": 127,
+    "sha256": "9743657f3a4f138ff732ab86fc09af0f512676f9817d5b6dcf31d6f39502d058"
+  },
+  "1967": {
+    "file": "1967.geojson.gz",
+    "features": 137,
+    "sha256": "98564459fa1ae20a9bcc5aec2b913515d33fb7269204e8dae6c3a3457117746b"
+  },
+  "1968": {
+    "file": "1968.geojson.gz",
+    "features": 137,
+    "sha256": "f7bb6d9c72a11cdfdad2957a9d0915fde7c2f2fcb945a59a01775232fe9c6ced"
+  },
+  "1969": {
+    "file": "1969.geojson.gz",
+    "features": 141,
+    "sha256": "755340cb40bca3b9b41f474e512b34cbeacf0183f6ae3565b2c9ae4785ea2932"
+  },
+  "1970": {
+    "file": "1970.geojson.gz",
+    "features": 141,
+    "sha256": "3a93dcd5b170f22b90c59e7f2d53b27d76b94d9238ee56b3d4806340c0bee20d"
+  },
+  "1971": {
+    "file": "1971.geojson.gz",
+    "features": 141,
+    "sha256": "37fe31a72a0dfd692a79568fed9a5208455f4826f7a986d63e879157bdc426d6"
+  },
+  "1972": {
+    "file": "1972.geojson.gz",
+    "features": 141,
+    "sha256": "c4b5616bf21e3a47ae1d4ecd711a0a7d92ff92132b5cdc8c30590bc883349a16"
+  },
+  "1973": {
+    "file": "1973.geojson.gz",
+    "features": 149,
+    "sha256": "22258dceac6d3d42cdca9f0851ffe87c6f71f431a4acd6e6c75b8e04fdd5be0c"
+  },
+  "1974": {
+    "file": "1974.geojson.gz",
+    "features": 149,
+    "sha256": "aa32df6644a63b172e413c12740468540988ce9b5fc252a55ed680c6b0ca935d"
+  },
+  "1975": {
+    "file": "1975.geojson.gz",
+    "features": 149,
+    "sha256": "3208aab15c8e8749a530a3ff3cc9a0f013bbe32730c44cce1a190f3abdf7f576"
+  },
+  "1976": {
+    "file": "1976.geojson.gz",
+    "features": 156,
+    "sha256": "73ef8a500bf6b0a4864315e8bbe731438b6d8a0ab14ce83c8043b961ebfca845"
+  },
+  "1977": {
+    "file": "1977.geojson.gz",
+    "features": 156,
+    "sha256": "d9c824e4ae68c4b1b4e10e0f27ca4cc3b88e304b40b1324cd8acc8559fd6d31e"
+  },
+  "1978": {
+    "file": "1978.geojson.gz",
+    "features": 156,
+    "sha256": "e1380e8873823e64b80c6e58bdf7eddb28acd4f0a1e69f785df9ef3591e7ca8e"
+  },
+  "1979": {
+    "file": "1979.geojson.gz",
+    "features": 160,
+    "sha256": "48ddcacb9760157d98daafc41c9fb89faedb8d658c55456ee7b12a040af43dd6"
+  },
+  "1980": {
+    "file": "1980.geojson.gz",
+    "features": 160,
+    "sha256": "6b6f8e4aa325bb18727d5ea1c42712389b08956b43533fa15e2610d929f8f233"
+  },
+  "1981": {
+    "file": "1981.geojson.gz",
+    "features": 160,
+    "sha256": "7c034adfe69a15ba821bcc9257e9d169220c4735cbac10715eea5b9757c66008"
+  },
+  "1982": {
+    "file": "1982.geojson.gz",
+    "features": 160,
+    "sha256": "4c7b277fa5407b12526059474715c78992f0afd087eb7740fbcffa9d0103b01a"
+  },
+  "1983": {
+    "file": "1983.geojson.gz",
+    "features": 161,
+    "sha256": "c0e39daed0ed0f2d6878e4d24dc6dc7a39d945dbdee30718f85b4ddc8b58ca21"
+  },
+  "1984": {
+    "file": "1984.geojson.gz",
+    "features": 161,
+    "sha256": "e49701f2a8c1199669d1ff36f0996a304da7deb73f1816d9a039833283208d04"
+  },
+  "1985": {
+    "file": "1985.geojson.gz",
+    "features": 161,
+    "sha256": "854b780195ec78fbac3fa75d01d38ed815476194dcf7b18375e650f311ee150e"
+  },
+  "1986": {
+    "file": "1986.geojson.gz",
+    "features": 161,
+    "sha256": "0e20c7013b2dba500e811af18613f2bcf8a91f87effcf3621394e7d942c3b403"
+  },
+  "1987": {
+    "file": "1987.geojson.gz",
+    "features": 163,
+    "sha256": "4d9cfae125054a6501780c78ea77a6d8a94277261ec93f20adf844442cc3eaa3"
+  },
+  "1988": {
+    "file": "1988.geojson.gz",
+    "features": 163,
+    "sha256": "f8f657d7679eb733b367e981fdc32e5f0c4a8803218f55d0fefddb22b7ea0c3b"
+  },
+  "1989": {
+    "file": "1989.geojson.gz",
+    "features": 163,
+    "sha256": "e89afdc64da6c0e910ac65df3ebd25591f2559fce680260ea568b40ea847385d"
+  },
+  "1990": {
+    "file": "1990.geojson.gz",
+    "features": 163,
+    "sha256": "9dd2824f5ebd49c23cca646ec823b171418005a14229c830e0f6f8cda46e823d"
+  },
+  "1991": {
+    "file": "1991.geojson.gz",
+    "features": 164,
+    "sha256": "5ca1da4b9617d02faff159bc721f3cc74dd5879a2664caef5ac0913d55e5ae23"
+  },
+  "1992": {
+    "file": "1992.geojson.gz",
+    "features": 186,
+    "sha256": "1fe8e2ced529eba22a02fee9137b292fcfc16e38489c22b1dc0d6cc525e1461b"
+  },
+  "1993": {
+    "file": "1993.geojson.gz",
+    "features": 186,
+    "sha256": "3de791db42fe3f067ad8fb169bac182ac276795d32dce5b79184039cdd530bd6"
+  },
+  "1994": {
+    "file": "1994.geojson.gz",
+    "features": 186,
+    "sha256": "d161831ced7e2bffc366621b6e23eec64f6e1801776dabc7ef2a95b655d41bc7"
+  },
+  "1995": {
+    "file": "1995.geojson.gz",
+    "features": 186,
+    "sha256": "5af4851d522398caa0b841b9240ae3ac3669d86a208d0eba00613e19096a4220"
+  },
+  "1996": {
+    "file": "1996.geojson.gz",
+    "features": 187,
+    "sha256": "0a8755e224925ee8737dd0537eed2d1c8a9f94ad632bd90b8be4d0f63e1d1a20"
+  },
+  "1997": {
+    "file": "1997.geojson.gz",
+    "features": 187,
+    "sha256": "75a253ab9f3a7ae0f5bbc6edba181584651659c7e62f9247ddacca15f3bbd09c"
+  },
+  "1998": {
+    "file": "1998.geojson.gz",
+    "features": 187,
+    "sha256": "3cd47572eb980d516fcc181ebf40e5edab56191a01d5d48e660674b45204d3f7"
+  },
+  "1999": {
+    "file": "1999.geojson.gz",
+    "features": 187,
+    "sha256": "6005a1eb6c9c97b23694f97676189d9ff659f234929c06e3131bc28c3f02ac5c"
+  },
+  "2000": {
+    "file": "2000.geojson.gz",
+    "features": 189,
+    "sha256": "6655b248844d1eb4ca5249496e9cb4bba125833478a65aa192c8a23ef5ebf232"
+  },
+  "2001": {
+    "file": "2001.geojson.gz",
+    "features": 189,
+    "sha256": "a5b6b8379d59c60e4c526104a20c6b469e35e90d2fab163c314f6f470045b054"
+  },
+  "2002": {
+    "file": "2002.geojson.gz",
+    "features": 189,
+    "sha256": "d6ff5d8a145f48f7ddf29178f7825937dc3b772b5e59407b46c9817364922dd7"
+  },
+  "2003": {
+    "file": "2003.geojson.gz",
+    "features": 189,
+    "sha256": "b7c2e91a43125791f82296aa6dcc7199e176860f907e2f78a3a46f09109d76ba"
+  },
+  "2004": {
+    "file": "2004.geojson.gz",
+    "features": 189,
+    "sha256": "747b7e7c76e8ba12f752bbedfd4f248dc98cebe515e81703c5c7b80da1b25b89"
+  },
+  "2005": {
+    "file": "2005.geojson.gz",
+    "features": 189,
+    "sha256": "5097379a024264247be6541b0d6a6cb82bf8d7c6371f351641ab431853f0ddee"
+  },
+  "2006": {
+    "file": "2006.geojson.gz",
+    "features": 188,
+    "sha256": "9443d04912959f8dca5849a663bea5572e697ab8b18f2b07eccfaaa4b0f73a11"
+  },
+  "2007": {
+    "file": "2007.geojson.gz",
+    "features": 188,
+    "sha256": "b2fdea9a53cb8d8d9eaf7c0a712bd12c969a8edb8a2046e8d19aa6e31a1780b7"
+  },
+  "2008": {
+    "file": "2008.geojson.gz",
+    "features": 188,
+    "sha256": "f2487eec4a53b25ae0fd934b830750bd15ffd7c0bdda36cee6eaf972294d90d9"
+  },
+  "2009": {
+    "file": "2009.geojson.gz",
+    "features": 188,
+    "sha256": "062c8497f2f92897465dab45505b4156df0e82edc3d2d51180bf410a7a13a042"
+  },
+  "2010": {
+    "file": "2010.geojson.gz",
+    "features": 188,
+    "sha256": "25d9d9d638062e0526ec2110cd47edadd35231f495f70a3427b962b824f81e8d"
+  },
+  "2011": {
+    "file": "2011.geojson.gz",
+    "features": 188,
+    "sha256": "a09e0748b10865a52aa36f5e347b3c05a7704fefcb38a7e6540ae966a321eecb"
+  },
+  "2012": {
+    "file": "2012.geojson.gz",
+    "features": 188,
+    "sha256": "ccf15a917adf198039d1693bb9f8ac950487d83d0e05194bd8cb56a3349fb113"
+  },
+  "2013": {
+    "file": "2013.geojson.gz",
+    "features": 188,
+    "sha256": "a99a80f97c4a536a1d24c4c19ac8ae946dfc2ee374a279c0fee428752268ae46"
+  },
+  "2014": {
+    "file": "2014.geojson.gz",
+    "features": 192,
+    "sha256": "eb7adce9d1cc3ffe66c9fe20ddea9dbaf577c39ca8da166c266f6cf45a95d72a"
+  },
+  "2015": {
+    "file": "2015.geojson.gz",
+    "features": 192,
+    "sha256": "c0db42a5f4a8e39e5c62cfa866efd3709b57b5a52f000196bb2eabc62a133ca3"
+  },
+  "2016": {
+    "file": "2016.geojson.gz",
+    "features": 192,
+    "sha256": "4740e258fa52bce5d9826b60920fb133e2f5f1a5934f8b4fd7ecc5c22dd7ea25"
+  },
+  "2017": {
+    "file": "2017.geojson.gz",
+    "features": 192,
+    "sha256": "a4d95c3d4e85d1398079141c089605b7e2e33ce0ed65bf0275055ef2c7311261"
+  },
+  "2018": {
+    "file": "2018.geojson.gz",
+    "features": 192,
+    "sha256": "4777d42932be0943bfba11ad38bd2de5e2eee7d6f2cc8700113b1b32d7dc876c"
+  },
+  "2019": {
+    "file": "2019.geojson.gz",
+    "features": 192,
+    "sha256": "2322d67eee5db9887a674b0230197086d4f5f357569238c5d0c36b5c897b4469"
+  },
+  "2020": {
+    "file": "2020.geojson.gz",
+    "features": 192,
+    "sha256": "5c9a3e1936b59b12095b4df27a4eaa5f7efa79b90f0ada6b929aa0700d04bbf5"
+  },
+  "2021": {
+    "file": "2021.geojson.gz",
+    "features": 192,
+    "sha256": "e7601974ca2735e81d7c993df1bd1f1f121e315bc02c6936df601e35fd8529f6"
+  },
+  "2022": {
+    "file": "2022.geojson.gz",
+    "features": 192,
+    "sha256": "cdf6a619514ffff2c7a24557e68b049ab00d16c5ae083a08e1213942c5260f9e"
+  },
+  "2023": {
+    "file": "2023.geojson.gz",
+    "features": 192,
+    "sha256": "3469dfd83289001075a36352a1b1d9804af4b79dfee8c5632f27085fd99ec2e5"
+  },
+  "2024": {
+    "file": "2024.geojson.gz",
+    "features": 192,
+    "sha256": "f149673673f24d61e8bc24ac1f8e0f309036cf98cd82c70095b2e0ff9d5244ec"
+  },
+  "2025": {
+    "file": "2025.geojson.gz",
+    "features": 177,
+    "sha256": "db597ee549bb7430221df9c2a1e22b9323013e6599b70048db7fea5faa6b94c2"
+  },
+  "2026": {
+    "file": "2026.geojson.gz",
+    "features": 177,
+    "sha256": "c584ea8b065f954e7a2fbcd4ff88df66de0f53bb8e5dfbf2ac3223fcef3f2d40"
+  }
+}
