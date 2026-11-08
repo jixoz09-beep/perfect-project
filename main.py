@@ -11,7 +11,17 @@ st.markdown('''<style>
 DEFAULTS={'app_page':'세계 자동차 탐색','query':'','map_year':2026,'year_scope':'선택 연도','strict_model':False,'country_choice':'','maker_choice':'','selected_codes':None,'selected_feature':None,'selected_region':'','selected_vehicle':None,'page_number':1,'all_country_labels':False}
 for key,value in DEFAULTS.items():st.session_state.setdefault(key,st.session_state.get('explorer_settings',{}).get(key,value))
 st.session_state.explorer_settings={key:st.session_state[key] for key in DEFAULTS}
-page=st.radio('기능 선택',['세계 자동차 탐색','자동차 제작 작업실'],key='app_page',horizontal=True,label_visibility='collapsed')
+nav,quick=st.columns([5,1])
+with nav:page=st.radio('기능 선택',['세계 자동차 탐색','자동차 제작 작업실','3D 운전교실'],key='app_page',horizontal=True,label_visibility='collapsed')
+with quick:st.button('바로 주행하기',key='quick_drive',on_click=lambda:st.session_state.update(app_page='3D 운전교실'))
+if page=='3D 운전교실':
+ import driving_runtime
+ st.caption('종로 모티브 가상 도로 · 제작 차량과 10대의 주행 선택지')
+ if hasattr(st,'iframe'):st.iframe(driving_runtime.driving_html(),height=900,alt='종로 3D 운전교실')
+ else:
+  import streamlit.components.v1 as components
+  components.html(driving_runtime.driving_html(),height=900,scrolling=False)
+ st.stop()
 if page=='자동차 제작 작업실':
  import workshop_runtime
  st.markdown('<div class="eyebrow">두 번째 기능 · 제작</div>',unsafe_allow_html=True)
