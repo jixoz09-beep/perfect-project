@@ -1,0 +1,20 @@
+AUTOVERSE 종로 지도 데이터 안내
+
+지도 데이터: © OpenStreetMap contributors (오픈스트리트맵 기여자)
+라이선스: Open Database License (ODbL) 1.0
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+원자료 취득: 2026-11-08
+OSM API 범위:
+https://www.openstreetmap.org/api/0.6/map?bbox=126.973,37.568,126.987,37.577
+
+도로 중심선, 건물 외곽선, 일부 높이, 보행 경로와 장소 위치를 변환했습니다.
+일부 건물 높이·외벽·신호등과 주행 규칙은 교육용으로 추정하거나 단순화했습니다.
+현실의 통행·신호·주차 규제를 안내하는 내비게이션으로 사용할 수 없습니다.
+
+변환 데이터는 AUTOVERSE_DRIVING_SOURCE.zip의 source/jongno-map.mjs,
+변환 스크립트는 build_jongno.py, 원자료는 jongno_osm.xml입니다.
+독립 실행 HTML과 두 runtime.py에도 같은 변환 데이터가 포함되어 있습니다.
+변환된 지도 데이터의 권리는 ODbL 조건을 따릅니다.
+독립 제작 차량 형상과 앱 코드는 별도이며, 실차 제조사의 공식 CAD가 아닙니다.
