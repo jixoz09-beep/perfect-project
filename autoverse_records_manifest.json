@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "data_date": "2026-11-09",
+  "statistics": {
+    "phase12_canonical_rows_loaded": 397548,
+    "records": 397548,
+    "vehicles_with_specifications": 294075,
+    "vehicles_with_single_country_code": 377530,
+    "phase12_existing_id_missing_values_added": 46322,
+    "country_multiple_or_unmapped_held": 4962,
+    "history_linked_existing_ids": 202041,
+    "history_payloads": 1179,
+    "history_archives_processed": 106,
+    "build_seconds_before_compression": 34.88
+  },
+  "policy": "Existing vehicle_id only. Source observations without a confirmed ID remain staged. Original year_basis retained. No research or name/year inference.",
+  "source_registry": "AUTOVERSE_DATA_RETRIEVAL_READY_20261109.zip",
+  "packed_bytes": 13150788,
+  "sqlite_bytes": 168136704,
+  "packed_sha256": "4fb626a13d669180e51582ba6182ee65fe7d17614a6a32c77e91a45ce067b034",
+  "sqlite_sha256": "5d7374687c50fcc89431837c33a6a0f37e2ea452b2948711492369bcd6aa516d"
+}
