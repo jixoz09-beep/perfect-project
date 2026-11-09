@@ -35,6 +35,54 @@ def _catalog_runtime(source,root_path,data_revision):
  return module
 catalog=_catalog_runtime(_CATALOG_SOURCE,str(ROOT),_catalog_deployment_revision())
 
+import csv, urllib.parse
+
+@st.cache_data(show_spinner=False)
+def _photo_candidate_index(path,revision):
+ index={}
+ try:
+  with open(path,'r',encoding='utf-8-sig',newline='') as f:
+   for row in csv.DictReader(f):
+    if not row.get('vehicle_id') or not str(row.get('model_year','')).isdigit():continue
+    if not 2020<=int(row['model_year'])<=2026:continue
+    url=row.get('image_url_for_trial','');page=row.get('commons_file_page','')
+    u=urllib.parse.urlparse(url);p=urllib.parse.urlparse(page)
+    if u.scheme!='https' or u.hostname!='commons.wikimedia.org' or p.scheme!='https' or p.hostname!='commons.wikimedia.org':continue
+    index.setdefault(row['vehicle_id'],[]).append(row)
+ except (OSError,UnicodeError,csv.Error):return {}
+ return index
+
+def _photo_candidates_for(record):
+ path=ROOT/'AUTOVERSE_2020_2026_PHOTO_LINKS_FOR_TERRAHIGH.csv'
+ try:revision=path.stat().st_mtime_ns
+ except OSError:return []
+ candidates=_photo_candidate_index(str(path),revision).get(record.get('vehicle_id',''),[])
+ return [r for r in candidates if str(r.get('model_year'))==str(record.get('year'))]
+
+@st.cache_data(ttl=86400,show_spinner=False)
+def _photo_commons_fallback(filename):
+ try:
+  import requests
+  r=requests.get('https://commons.wikimedia.org/w/api.php',params={'action':'query','format':'json','prop':'imageinfo','iiprop':'url','iiurlwidth':960,'titles':'File:'+filename},headers={'User-Agent':'AUTOVERSE/1.0 (vehicle photo preview)'},timeout=3)
+  r.raise_for_status()
+  for page in r.json().get('query',{}).get('pages',{}).values():
+   info=(page.get('imageinfo')or[{}])[0];url=info.get('thumburl')or info.get('url','')
+   if urllib.parse.urlparse(url).hostname in ('upload.wikimedia.org','commons.wikimedia.org'):return url
+ except Exception:pass
+ return None
+
+def _show_photo_candidate(row):
+ url=row['image_url_for_trial']
+ try:st.image(url,caption='사진 후보 · 검토 중',width='stretch')
+ except Exception:
+  fallback=_photo_commons_fallback(row.get('photo_file_name',''))
+  if fallback:
+   try:st.image(fallback,caption='사진 후보 · 검토 중',width='stretch')
+   except Exception:st.caption('이미지를 불러오지 못했습니다. 아래 원본 페이지에서 확인하세요.')
+  else:st.caption('이미지를 불러오지 못했습니다. 아래 원본 페이지에서 확인하세요.')
+ st.link_button('사진 출처·이용 조건',row['commons_file_page'])
+
+
 st.markdown('''<style>
 #MainMenu,footer{visibility:hidden}.block-container{max-width:1460px;padding-top:2rem;padding-bottom:3rem}h1,h2,h3{letter-spacing:-.045em}h1{font-weight:750}h3{line-height:1.35}.eyebrow{font-size:11px;letter-spacing:.16em;color:#49766f;margin-bottom:10px}.hero-line{font-size:16px;color:#647a7a;line-height:1.8}.car-title{font-size:19px;font-weight:700;line-height:1.45;color:#183d45;margin:8px 0 4px}.photo-pending{height:110px;background:linear-gradient(145deg,#e4e9e3,#f3f2ea);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#718783;font-size:12px;margin-bottom:12px;border:1px solid #d9e1d8}.car-meta{font-size:12px;color:#68807d}.tag{display:inline-block;background:#e6efeb;color:#35695f;border:1px solid #d4e2da;padding:3px 8px;border-radius:20px;font-size:10px;margin:0 4px 5px 0}.result-summary{color:#425e62;font-size:13px;margin:10px 0 18px}.detail-pending{padding:44px 22px;background:#eaece5;border-radius:14px;text-align:center;color:#70827d;border:1px dashed #bfcfc4}.stButton>button{border-radius:9px}div[data-testid=stMetricValue]{font-size:1.75rem}div[data-testid=stVerticalBlockBorderWrapper]{border-radius:14px}button:focus-visible{outline:3px solid #93beb0}
 </style>''',unsafe_allow_html=True)
@@ -110,6 +158,10 @@ def details_view(record):
   locations=[p for p in locations if p[0]]
   if not locations:st.markdown('<div class="detail-pending">자동차 사진을 준비하고 있습니다.</div>',unsafe_allow_html=True)
   for location,caption in locations:st.image(location,caption=caption or None,width='stretch')
+  for candidate in _photo_candidates_for(record):
+   with st.expander('사진 후보 · 검토 중'):
+    _show_photo_candidate(candidate)
+    st.caption('차종·세대·변경 모델·촬영 각도와 이용 조건을 확인 중인 후보입니다.')
  with history_tab:
   history=detail.get('history_ko')
   if history:
@@ -233,7 +285,11 @@ try:
      try:
       extra=catalog.load_details(record['vehicle_id']);photos=extra.get('photos',[]);thumbnail=catalog.photo_location(photos[0]) if photos and isinstance(photos[0],dict) else None
      except (ValueError,OSError,json.JSONDecodeError):thumbnail=None
+     candidates=_photo_candidates_for(record) if not thumbnail else []
      if thumbnail:st.image(thumbnail,width='stretch')
+     elif candidates:
+      try:st.image(candidates[0]['image_url_for_trial'],caption='사진 후보 · 검토 중',width='stretch')
+      except Exception:st.markdown('<div class="photo-pending">사진 후보 확인 중</div>',unsafe_allow_html=True)
      else:st.markdown('<div class="photo-pending">사진 준비 중</div>',unsafe_allow_html=True)
      st.markdown('<div class="car-meta">'+html.escape(record['maker_ko'])+' · '+html.escape(catalog.country_name(record['origin_code']))+'</div><div class="car-title">'+html.escape(record['model_ko'])+'</div>',unsafe_allow_html=True)
      label=(str(record['year'])+('년형' if record.get('year_kind')=='model' else '년 자료')) if record['year'] else '연도 미확인'
