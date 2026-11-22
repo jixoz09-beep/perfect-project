@@ -1,0 +1,11 @@
+/* UI helpers are kept separate so pointer projection and contact transforms can be tested. */
+import * as T from 'three';
+export function worldPerPixel(camera,point,height){return 2*camera.position.distanceTo(point)*Math.tan(camera.fov*Math.PI/360)/Math.max(1,height);}
+export function projectedAxis(camera,point,axis,width,height){const a=point.clone().project(camera),b=point.clone().add(axis).project(camera);return new T.Vector2((b.x-a.x)*width/2,-(b.y-a.y)*height/2);}
+export function axisDistance(dx,dy,projection,fallback){const l=projection.lengthSq();return l>4?(dx*projection.x+dy*projection.y)/l:-dy*fallback;}
+export function orbitCamera(camera,target,azimuth,polar){const s=new T.Spherical().setFromVector3(camera.position.clone().sub(target));s.theta+=azimuth;s.phi=T.MathUtils.clamp(s.phi+polar,.03,Math.PI-.03);camera.position.copy(target).add(new T.Vector3().setFromSpherical(s));camera.lookAt(target);}
+
+export function panCamera(camera,target,dx,dy,height){camera.updateMatrixWorld();const scale=worldPerPixel(camera,target,height),right=new T.Vector3().setFromMatrixColumn(camera.matrixWorld,0),up=new T.Vector3().setFromMatrixColumn(camera.matrixWorld,1),offset=right.multiplyScalar(-dx*scale).addScaledVector(up,dy*scale);camera.position.add(offset);target.add(offset);camera.lookAt(target);}
+export function zoomCamera(camera,target,factor,min=.002,max=200){const offset=camera.position.clone().sub(target);if(offset.lengthSq()<1e-16)offset.copy(camera.getWorldDirection(new T.Vector3())).negate().multiplyScalar(min);const old=offset.length(),distance=T.MathUtils.clamp(old*factor,min,max);camera.position.copy(target).add(offset.multiplyScalar(distance/old));camera.lookAt(target);}
+
+export function frameCamera(camera,target,box,direction){const center=box.getCenter(new T.Vector3()),radius=Math.max(.002,box.getSize(new T.Vector3()).length()/2),vfov=camera.fov*Math.PI/180,hfov=2*Math.atan(Math.tan(vfov/2)*camera.aspect),distance=radius/Math.sin(Math.min(vfov,hfov)/2)*1.12;target.copy(center);camera.position.copy(center).addScaledVector(direction.clone().normalize(),distance);camera.near=Math.min(.025,Math.max(.0001,radius*.01));camera.far=Math.max(700,distance+radius*8);camera.updateProjectionMatrix();camera.lookAt(center);camera.updateMatrixWorld();}
